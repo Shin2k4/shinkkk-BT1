@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="login.html" id="login" name="login" method="post" enctype="multipart/form-data"> Create Account
+        <fieldset>
+            <legend>Registration information</legend>   
+            <label for="">Fist name*:</label>
+            <input type="text" name="fisrtname" placeholder="enter your fisrt name" autocomplete = "on" required >
+            <label for="">Last name:</label>
+            <input type="text" name="lastname" placeholder="enter your Last name"><br>
+            <label for="">Email:</label>
+            <input type="text" name="Email" placeholder="enter your Email" autocomplete = "on">
+            <label for="">Phone*:</label>
+            <input type="text" name="Phone" placeholder="enter your Phone number" autocomplete = "on"><br>
+            <label for="">Password*:</label>
+            <input type="password" name="Password" placeholder="enter your password">
+            <label for="">Confirm Password*:</label>
+            <input type="password" name="ConfirmPassword" placeholder="enter your password again">
+        </fieldset>
+    </form>
+    <form action="/login.html" method="post">
+        <fieldset>
+            <legend>Personal information</legend>   
+            Gender:
+            <input type="radio" name="Gender" value="Male" checked>
+            <label for="">Male</label>
+            <input type="radio" name="Gender" value="Famele">
+            <label for="">Female</label>
+            <label for="">Hobbies:</label>
+            <input type="checkbox" name="fruit1" value="Male" >
+            <label for="">Music</label>
+            <input type="checkbox" name="fruit2" value="Female">
+            <label for="">Sports</label>
+            <input type="checkbox" name="fruit2" value="Female">
+            <label for="">Travel</label>
+            <input type="checkbox" name="fruit2" value="Female">
+            <label for="">Movies</label><br>
+            Source of Income:
+            <select>
+                <option value="Employed">Employed</option>
+            </select>
+            <label for="">Income:</label>
+            <input type="range" name="Income" min="1" max="99"><br>
+            Age:
+            <input type="number" max="100">
+            Profile picture:
+            <input type="file"><br>
+            Birthday:
+            <input type="date"><br>
+            <label for="">Bio:</label>
+            <textarea cols="50" rows="3"></textarea>
+        </fieldset>
+    </form>
+    <!-- <p> - định dạng đoạn văn bản
+        <div>- phân chia khu vực
+            < thẻ <p> có thể chứa thẻ <div> và ngược lại -->
+            <img src="https://bedental.vn/wp-content/uploads/2022/11/f99a5cc9ebcceba1dd49af0d509732dc.jpg
+            " alt="ảnh đang load">
+            
+</body>
+</html>
